@@ -5,6 +5,10 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+nav{
+  text-decoration:none;
+}
+
 body {
   background: #f4f4f4;
   color: #333;
