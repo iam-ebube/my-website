@@ -91,3 +91,13 @@ footer {
   color: white;
   margin-top: 40px;
 }
+
+a.linkedin,
+a.facebook,
+a.twitter,
+a.github,
+a.instagram,
+a.whatsapp {
+  text-decoration: none;
+}
+
