@@ -68,51 +68,46 @@ section {
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   }
 
-/* Contact Section Styling */
-#contact.section {
-    background-color: #f8f9fa; /* Light grey background */
-    padding: 60px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-#contact .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+
+
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: nowrap; /* Prevent wrapping under icon */
 }
 
-#contact h2 {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 30px;
-    color: #333;
+.contact-item i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+  flex-shrink: 0; /* Prevent icon from shrinking */
 }
 
-#contact a {
-    display: block;
-    margin-bottom: 20px;
-    color: #333;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
+.contact-item span,
+.contact-item a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.5;
 }
 
-#contact a:hover {
-    color: #0066cc; /* Blue color on hover */
-}
 
-#contact i.bx {
-    margin-right: 15px;
-    font-size: 24px;
-    vertical-align: middle;
-    color: #0066cc; /* Blue icons */
-}
 
-/* Address styling to match the multi-line format */
-#contact .address-block {
-    display: block;
-    margin-bottom: 5px;
-    line-height: 1.6;
+.bx bx-map,
+bx bx-phone,
+bx bx-envelope{
+font-size:30px;
+text-decoration: none;
 }
 
 h2 {
