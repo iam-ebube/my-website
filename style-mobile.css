@@ -1,8 +1,4 @@
-#contact a {
-        font-size: 16px;
-    }
-    
-    #contact i.bx {
-        font-size: 20px;
-    }
+.contact-item {
+    font-size: 14px;
+  }
 }
