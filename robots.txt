@@ -1,4 +1,5 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://crystalpetersacademy.vercel.app/sitemap.xml
+
+Sitemap: https://dreamstorealities.vercel.app/sitemap.xml
